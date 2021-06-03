@@ -65,16 +65,18 @@ body {
 
 .section2 {
     display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
 .card-wrapper {
-    height: auto;
-    margin: 0 50px;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .card {
     float: left;
-    margin: 60px 15px 0 15px;
+    margin: 70px 17px 0 15px;
     padding: 0;
     background: #F2F2F2;
     width: 360px;
@@ -82,4 +84,38 @@ body {
 
 .card h3, .card p {
     padding: 5px 20px 0 20px;
+}
+
+.card button {
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 12px 30px;
+    border: none;
+}
+
+.green-text {
+    color: #178A27;
+}
+
+.button-green {
+    background: #178A27;
+    color: white;
+}
+
+.blue-text {
+    color: #1686C1;
+}
+
+.details-button {
+    background: #1686C1;
+    color: white;
+}
+
+.gray-text {
+    color: #666666;
+}
+
+.button-red {
+    background: #C9302C;
+    color: white;
 }
