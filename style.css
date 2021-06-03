@@ -1,0 +1,85 @@
+.wrapper {
+    margin: 5px;
+    width: auto;
+}
+
+body {
+    margin: 0;
+    font-size: 12pt;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    background: #383E4C;
+    text-align: center;
+}
+
+.navbar button {
+    font-size: 20px;
+    margin: 10px 10px 20px 10px;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+}
+
+.navbar button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.section1 {
+    height: 700px;
+    background-image: url('./img/bg-1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 {
+    color: white;
+    text-align: center;
+}
+
+.section1 h1 {
+    margin: 0;
+    padding-top: 250px;
+    font-size: 70px;
+    text-shadow: 2px 2px black;
+}
+
+.section1 h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.section1 h5 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.card img {
+    display: block;
+}
+
+.section2 {
+    display: inline-block;
+}
+
+.card-wrapper {
+    height: auto;
+    margin: 0 50px;
+}
+
+.card {
+    float: left;
+    margin: 60px 15px 0 15px;
+    padding: 0;
+    background: #F2F2F2;
+    width: 360px;
+}
+
+.card h3, .card p {
+    padding: 5px 20px 0 20px;
+}
